@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url(images/contactus.jpg);
+   
+
+}
+.row{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.row1{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.organ{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.organ-col{
+    flex-basis:50%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.organ-col img{
+    width:250px;
+    height:180px;
+    display: block;
+}
+
+.organ-col1{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.organ-col1 img{
+    width:650px;
+    height:450px;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    left: 50%;
+}

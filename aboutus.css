@@ -6,27 +6,46 @@
 }
 .section{
     width:100%;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: #ddd;
 
 }
 .container{
-    width:80%;
+    width:100%;
     display: block;
     margin: auto;
     padding-top: 100px;
 }
 .content-section{
+    padding-left: 2%;
     float: left;
-    width: 55%;
+    width: 40%;
 }
 .image-section{
     float: right;
-    width: 40%;
+    width: 30%;
+    
+}
+.image-section1{
+padding: auto;
+    float: right;
+    width: 25%;
+    
+
+
 
 }
-
 .content-section .title{
     text-transform: uppercase;
     font-size: 28px;
 }
+@media only screen and (max-width:700px){
+    .image-section{
+        width: 50%;
+        margin: 5px 0;
+    }
+    .image-section1{
+        width: 50%;
+        margin: 5px 0;
+    }
+ }

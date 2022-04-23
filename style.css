@@ -226,6 +226,32 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
+
+.activites22{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.activites22-col{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 5;
+    text-align: left;
+}
+.activites22-col img{
+    width: 70%;
+    border-radius: 10px;
+}
+.activites22-col p{
+    padding: 0;
+}
+.activites22-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
 .activites{
     width:80%;
     margin: auto;
